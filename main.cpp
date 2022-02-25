@@ -10,7 +10,7 @@ int main()
 	srand(time(NULL));
 	const int size = 10;
 	int Arr[size];
-	SortArr(Arr, 10, 1);
+	PrintArr(Arr, 10, 1);
 	return 0;
 	SortArr(Arr, 10, 1);
 	
