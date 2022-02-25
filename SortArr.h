@@ -1,6 +1,8 @@
+
+
 using namespace std;
 
-void SortArr(int Arr[], int size=10, int parametr = 1)
+void SortArr(int Arr[], int size = 10, int parametr = 1)
 {
 	for (int i = 1; i < size; ++i)
 	{
@@ -14,4 +16,9 @@ void SortArr(int Arr[], int size=10, int parametr = 1)
 			}
 		}
 	}
+	for (int i = 0; i < size; i++)
+	{
+		cout << Arr[i] << "\t";
+	}
+	cout << endl << endl;
 }
